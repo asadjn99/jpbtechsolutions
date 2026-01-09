@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Link from "next/link";
 import Image from "next/image";
@@ -18,9 +18,9 @@ export default function Hero() {
           className="object-cover object-center"
           priority
         />
-        {/* HEAVY OVERLAY: This makes the text pop. 
-            We use a dark slate color heavily on the left (90%) fading slightly to the right (70%) */}
-        <div className="absolute inset-0 bg-linear-to-r from-slate-900/95 via-slate-900/90 to-slate-900/70" />
+        
+        {/* FIXED OVERLAY: */}
+        <div className="absolute inset-0 bg-linear-to-r from-[#284238] via-[#3b5d50]/90 to-[#3b5d50]/60" />
       </div>
 
       {/* ================= CONTENT ================= */}
@@ -32,10 +32,8 @@ export default function Hero() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            // className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm mb-8"
           >
             <span className="flex ml-1 h-2 w-2 rounded-full bg-[#f9bf29] animate-pulse" />
-           
           </motion.div>
 
           {/* Headline */}
@@ -56,7 +54,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-lg sm:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl drop-shadow-md"
+            className="text-lg sm:text-xl text-gray-100 mb-8 leading-relaxed max-w-2xl drop-shadow-md"
           >
             We transform complex business ideas into user-friendly digital solutions. 
             From mobile apps to enterprise platforms, we build technology that drives revenue.
@@ -71,7 +69,7 @@ export default function Hero() {
           >
             <Link 
               href="/contact"
-              className="group bg-[#3b5d50] text-white font-bold text-lg px-8 py-4 rounded-lg transition-all hover:bg-[#3b5d50]/50 flex items-center justify-center gap-2"
+              className="group bg-[#f9bf29] text-[#3b5d50] font-bold text-lg px-8 py-4 rounded-lg transition-all hover:bg-[#f9bf29]/90 flex items-center justify-center gap-2 shadow-lg"
             >
               Start Your Project
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -79,18 +77,18 @@ export default function Hero() {
             
             <Link 
               href="/projects"
-              className="group bg-white/5 border border-white/10 text-white font-medium text-lg px-8 py-4 rounded-lg transition-all hover:bg-white/10 flex items-center justify-center"
+              className="group bg-white/10 border border-white/20 text-white font-medium text-lg px-8 py-4 rounded-lg transition-all hover:bg-white/20 flex items-center justify-center backdrop-blur-sm"
             >
               View Case Studies
             </Link>
           </motion.div>
 
-          {/* Trust Points (Mini List) */}
+          {/* Trust Points */}
           <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="flex flex-row sm:flex-wrap gap-x-2 sm:gap-y-4 sm:gap-x-8 text-sm font-medium text-gray-400 border-t border-white/10 pt-8"
+            className="flex flex-row sm:flex-wrap gap-x-2 sm:gap-y-4 sm:gap-x-8 text-sm font-medium text-gray-200 border-t border-white/20 pt-8"
           >
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-5 h-5 text-[#f9bf29]" />
