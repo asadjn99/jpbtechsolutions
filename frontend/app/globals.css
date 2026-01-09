@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 15, 23, 42; /* Matches primary #0f172a */
+}
+
+body {
+  color: #0f172a;
+  background: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Updated Accent Underline */
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #0ea5e9; /* New Electric Blue Accent */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
