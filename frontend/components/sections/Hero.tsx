@@ -5,6 +5,15 @@ import Image from "next/image";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+interface HeroProps {
+  badge?: string;
+  title: string;
+  description: string;
+  imageSrc: string;
+}
+
 export default function Hero() {
   return (
     <section className="relative w-full h-screen flex items-center overflow-hidden">
@@ -73,6 +82,7 @@ export default function Hero() {
             >
               Start Your Project
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              
             </Link>
             
             <Link 

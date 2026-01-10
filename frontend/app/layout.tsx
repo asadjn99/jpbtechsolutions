@@ -20,7 +20,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "JPBtech Solutions | Transforming Ideas into Digital Reality",
     description: "Leading software house providing web development, app solutions, and IT consultancy.",
-    url: "https://jpbtechsolutions.com",
+    // url: "https://jpbtechsolutions.com",
+    url: "https://jpbtechsolutions.netlify.app",
     siteName: "JPBtech Solutions",
     images: [
       {

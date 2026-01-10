@@ -119,8 +119,8 @@ export default function Footer() {
             © {new Date().getFullYear()} JPBtech Solutions. All rights reserved.
           </p>
           <div className="flex gap-8 text-sm text-slate-500">
-            <Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
           </div>
         </div>
 

@@ -35,8 +35,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#3b5d50]  shadow-md py-3"  // Scrolled: primary
-          : "bg-transparent py-5"      // Top: Transparent
+          ? "bg-[#3b5d50]  shadow-md py-3"
+          : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,7 +49,7 @@ export default function Navbar() {
                 src="/logow.png"
                 alt="JPBtech Solutions"
                 fill
-                className="object-contain object-left transition-transform group-hover:scale-105 duration-300"
+                className="object-contain object-left group-hover:opacity-90"
                 priority
                 />
             </div>
@@ -69,7 +69,7 @@ export default function Navbar() {
                 >
                   {link.name}
                   
-                  {/* The Yellow Animated Underline */}
+                  {/* Yellow Underline */}
                   <span 
                     className={`absolute -bottom-1 left-0 h-0.5 bg-[#f9bf29] rounded-full transition-all duration-300 ease-in-out ${
                       isActive ? "w-full" : "w-0 group-hover:w-full"
