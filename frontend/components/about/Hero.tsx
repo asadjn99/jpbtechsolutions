@@ -98,11 +98,11 @@ export default function PageHero({
             </div>
             
             {/* Trust Indicator */}
-            <div className="mt-14 flex items-center justify-center lg:justify-start gap-4 animate-fade-in-up" style={{animationDelay: '0.3s'}}>
+            {/* <div className="mt-14 flex items-center justify-center lg:justify-start gap-4 animate-fade-in-up" style={{animationDelay: '0.3s'}}>
                <div className="flex -space-x-4">
                   {[1,2,3,4].map((i) => (
                     <div key={i} className="w-11 h-11 rounded-full border-[3px] border-[#3b5d50] bg-gray-200 relative overflow-hidden shadow-sm">
-                       {/* Placeholder avatars */}
+                       
                        <div className="w-full h-full bg-linear-to-br from-gray-300 to-gray-400" />
                     </div>
                   ))}
@@ -114,7 +114,7 @@ export default function PageHero({
                  </div>
                  <p className="text-gray-200 text-sm font-medium">Over 500+ Happy Clients</p>
                </div>
-            </div>
+            </div> */}
 
           </motion.div>
 
