@@ -11,7 +11,7 @@ export default function ProjectsPage() {
         badge="Our Portfolio"
         title="Showcasing Our Digital Masterpieces"
         description="Explore a curated selection of our successful projects. From startups to enterprises, we've delivered excellence across industries."
-        imageSrc="/projects-hero.jpg"
+        imageSrc="/about-hero.webp"
       />
 
       

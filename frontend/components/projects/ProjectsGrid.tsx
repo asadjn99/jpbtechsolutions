@@ -12,14 +12,14 @@ const projects = [
     id: 1,
     title: "FinTrack Dashboard",
     category: "Web App",
-    image: "/project-1.jpg", 
+    image: "/projects/proj-1.webp", 
     description: "A comprehensive financial analytics dashboard for enterprise clients.",
   },
   {
     id: 2,
     title: "MediCare Mobile",
     category: "Mobile App",
-    image: "/project-2.jpg",
+    image: "/projects/proj-2.png",
     description: "Patient management and telemedicine app for IOS and Android.",
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     image: "/project-6.jpg",
     description: "Fitness tracking application with wearable device integration.",
   },
-  // --- NEW AI PROJECTS ---
+  // --- AI PROJECTS ---
   {
     id: 7,
     title: "VisionAI Security",
