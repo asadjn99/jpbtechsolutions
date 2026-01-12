@@ -7,9 +7,9 @@ import { Quote, Star } from "lucide-react";
 const testimonials = [
   {
     id: 1,
-    name: "Mian Jawad Ahmad",
-    role: "Founder & CEO, Encoder Bytes",
-    image: "/mian.jpg",
+    name: "Arsalan Ahmad",
+    role: "CEO, Dropo",
+    image: "/",
     content: "A reliable and skilled team that truly understands modern software development. Their commitment to quality, scalability, and real business outcomes makes them a strong technology partner.",
     rating: 5,
   },

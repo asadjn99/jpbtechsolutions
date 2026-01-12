@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const team = [
   {
-    name: "Mian Jawad Ahmad",
+    name: "Ifti Ahmad",
     role: "CEO & Founder",
-    image: "/mian.jpg", 
+    image: "/", 
     bio: "Visionary leader with 10+ years in software architecture.",
     socials: { linkedin: "#", twitter: "#" }
   },
